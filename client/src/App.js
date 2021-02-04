@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const fetchedData = await fetch("/api/data/", {
+      const fetchedData = await fetch("/api/team/", {
            headers:{
           'Content-Type': 'application/json',
           'Accept': 'application/json'
